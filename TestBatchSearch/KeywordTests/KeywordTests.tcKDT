@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
-	<children />
+	<children>
+		<child name="BatchNumber" key="{5FF148D8-64FA-4551-AD48-3B9792A0FD7E}" path="BatchNumber.tcKDTest" />
+	</children>
 </Root>

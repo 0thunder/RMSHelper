@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{98FB5A94-9044-4390-A946-5884F21962D7}">
+				<TypeInfo Item0="{3A16E20A-5EE5-46B6-BEBB-E6B4ED54D94E}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="BatchSearch" Key="{5B2F7195-5642-4D3D-A63D-84AE9ED302FC}">
+						<TypeInfo Item0="{2899A264-BE3D-4901-9022-9F8B24CB755E}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="BatchSearch" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_MainWindow" Key="{8EE0934C-48A0-4727-BF80-9C1853B71C48}">
+								<Image FileName="1006331666" Left="0" Top="0" Right="1750" Bottom="1050" />
+								<TypeInfo Item0="{700DF085-F034-4894-90BF-48C857F61DA8}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MainWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Batch Search v: 0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MainWindow" Key="{2E2E0A56-E75E-45D8-BE29-99F6C46F7881}">
+										<Image FileName="1006331666" Left="12" Top="52" Right="1763" Bottom="1103" />
+										<TypeInfo Item0="{C6C1C7C6-E21B-40BD-B1A2-87373BC42D7D}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="BatchSearch.MainWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TextblockFl182090" Key="{53CE5DBE-4144-4C55-A0FE-77C64BBB087C}" ExtendedFind="True">
+												<Image FileName="1006331666" Left="1469" Top="495" Right="1666" Bottom="576" />
+												<TypeInfo Item0="{C6C1C7C6-E21B-40BD-B1A2-87373BC42D7D}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.TextBlock" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="(FL 1,820.90)" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="tbarReturns" Key="{95C42048-FD54-48FC-8B43-BAF33DDC987F}" ExtendedFind="True">
+												<Image FileName="-1126161629" Left="12" Top="118" Right="1739" Bottom="205" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="tbarReturns" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="C1ToolbarGroup" Key="{AC0A2BED-F759-46B6-9E3A-91E8DDE56DC9}" ExtendedFind="True">
+														<Image FileName="-1126161629" Left="19" Top="125" Right="892" Bottom="198" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="C1.WPF.Toolbar.C1ToolbarGroup" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="txtBatchNr" Key="{FE14999E-D61B-4F15-803F-FEE194EFE35D}" ExtendedFind="True">
+																<Image FileName="-1126161629" Left="254" Top="139" Right="430" Bottom="184" />
+																<TypeInfo Item0="{625FDA91-1249-48B2-9E96-604BB24EE939}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value Value="txtBatchNr" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="C1ToolbarButton" Key="{349089FD-55C2-46AB-85C5-C61608CCB59D}" ExtendedFind="True">
+																<Image FileName="-383858398" Left="814" Top="134" Right="882" Bottom="189" />
+																<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="C1.WPF.Toolbar.C1ToolbarButton" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="devenv" Key="{31CB07F5-2E0C-47B8-AF4B-6A6ED1A7A746}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="devenv" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_MainWindow" Key="{03DE1B55-A10C-4F98-90FE-658B3C6588B9}">
+								<Image FileName="572573083" Left="-12" Top="-12" Right="2564" Bottom="1404" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MainWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MainWindow" Key="{2D6B8EE6-0C1B-4980-951B-68088F4404E9}">
+										<Image FileName="572573083" Left="-4" Top="-5" Right="2573" Bottom="1412" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Microsoft.VisualStudio.PlatformUI.MainWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="VsToolBar" Key="{8B63CEAC-57B1-43B1-BA63-9EC56B8A0E42}" ExtendedFind="True">
+												<Image FileName="572573083" Left="5" Top="28" Right="591" Bottom="55" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="Microsoft.VisualStudio.PlatformUI.VsToolBar" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="BatchSearch" Owner="{5B2F7195-5642-4D3D-A63D-84AE9ED302FC}">
+			<Child Name="HwndSource_MainWindow" Owner="{8EE0934C-48A0-4727-BF80-9C1853B71C48}">
+				<Child Name="MainWindow" Owner="{2E2E0A56-E75E-45D8-BE29-99F6C46F7881}">
+					<Child Name="TextblockFl182090" Owner="{53CE5DBE-4144-4C55-A0FE-77C64BBB087C}" />
+					<Child Name="tbarReturns" Owner="{95C42048-FD54-48FC-8B43-BAF33DDC987F}">
+						<Child Name="C1ToolbarGroup" Owner="{AC0A2BED-F759-46B6-9E3A-91E8DDE56DC9}">
+							<Child Name="txtBatchNr" Owner="{FE14999E-D61B-4F15-803F-FEE194EFE35D}" />
+							<Child Name="C1ToolbarButton" Owner="{349089FD-55C2-46AB-85C5-C61608CCB59D}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="devenv" Owner="{31CB07F5-2E0C-47B8-AF4B-6A6ED1A7A746}">
+			<Child Name="HwndSource_MainWindow" Owner="{03DE1B55-A10C-4F98-90FE-658B3C6588B9}">
+				<Child Name="MainWindow" Owner="{2D6B8EE6-0C1B-4980-951B-68088F4404E9}">
+					<Child Name="VsToolBar" Owner="{8B63CEAC-57B1-43B1-BA63-9EC56B8A0E42}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
