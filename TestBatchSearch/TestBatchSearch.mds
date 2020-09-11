@@ -33,9 +33,9 @@
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
 		<setting name="AzureDevOps_CollectionID" type="5" value="{27205F2D-967F-4EF7-8A5B-C64665E12C70}" />
-		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/18412834-8ae2-4f89-ac43-dc8d24ce7496" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/e7bea437-59d8-4b10-80d6-ad9e80e483bd" />
 		<setting name="AzureDevOps_ServerName" type="5" value="https://allanvanaanholt.visualstudio.com/" />
-		<setting name="AzureDevOps_TeamProject" type="5" value="RMSDataManager" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="TestComplete" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="https://allanvanaanholt.visualstudio.com/" />
 		<setting name="CBT_Authkey" type="5" value="" />
