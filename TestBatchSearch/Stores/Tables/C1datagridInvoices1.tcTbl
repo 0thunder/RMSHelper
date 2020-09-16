@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="14.0">
+	<Table>
+		<Source Object="NameMapping[&quot;Sys&quot;][&quot;BatchSearch&quot;][&quot;HwndSource_MainWindow&quot;][&quot;MainWindow&quot;][&quot;C1datagridInvoices2&quot;]">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="ByCoordinates" SelectionPreference="NearestToCenter" HasHeader="True">
+				<Rectangle Left="39" Top="45" Right="1715" Bottom="185" />
+			</DataExtraction>
+		</Source>
+		<Columns>
+			<Column>11768</Column>
+			<Column>ALLAN</Column>
+			<Column>12/17/2015 10:25:25 AM</Column>
+			<Column>2/15/2016 12:00:00 AM</Column>
+			<Column>Shaba</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">16850</Cell>
+				<Cell Type="String">ALLAN</Cell>
+				<Cell Type="String">9/28/2017 11:50:44 AM</Cell>
+				<Cell Type="String">11/27/2017 12:00:00 AM</Cell>
+				<Cell Type="String">Shaba</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">55595</Cell>
+				<Cell Type="String">ALLAN</Cell>
+				<Cell Type="String">5/24/2019 3:57:53 PM</Cell>
+				<Cell Type="String">7/23/2019 12:00:00 AM</Cell>
+				<Cell Type="String">Dakota</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

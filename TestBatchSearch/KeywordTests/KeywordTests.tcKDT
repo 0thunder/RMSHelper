@@ -2,5 +2,9 @@
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
 	<children>
 		<child name="BatchNumber" key="{5FF148D8-64FA-4551-AD48-3B9792A0FD7E}" path="BatchNumber.tcKDTest" />
+		<child name="Transaction" key="{B05F1D1E-6492-482A-94C1-716A3D4BB5AF}" path="Transaction.tcKDTest" />
+		<child name="OpenInvoiceString" key="{66792EFA-0701-4116-8B46-FA58D526C92C}" path="OpenInvoiceString.tcKDTest" />
+		<child name="OpenInvoiceInt" key="{ACE46C1A-024E-46A5-8448-0CB6076A2FE8}" path="OpenInvoiceInt.tcKDTest" />
+		<child name="SelectedRow" key="{296B1ABC-55A6-49DD-9AE1-887DAA6BCA3D}" path="SelectedRow.tcKDTest" />
 	</children>
 </Root>

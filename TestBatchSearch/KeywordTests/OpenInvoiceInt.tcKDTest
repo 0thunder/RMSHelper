@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{29D978A0-1BAA-4B2B-B0AA-566A2AFFF660}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Invoices" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.BatchSearch.HwndSource_MainWindow.MainWindow.C1Toolbar.C1ToolbarGroup.ItemsControl.C1toolbarbuttonInvoices;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="257" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="23" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;BatchSearch&quot;][&quot;HwndSource_MainWindow&quot;][&quot;MainWindow&quot;][&quot;tbarInvoices&quot;][&quot;C1ToolbarGroup&quot;][&quot;cboSearchType&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="122" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="17" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;BatchSearch&quot;][&quot;HwndSource_PopupRoot&quot;][&quot;PopupRoot&quot;][&quot;C1comboboxitemOpeninvoiceS&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="58" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="27" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;BatchSearch&quot;][&quot;HwndSource_MainWindow&quot;][&quot;MainWindow&quot;][&quot;tbarInvoices&quot;][&quot;C1ToolbarGroup&quot;][&quot;txtBatchNr&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="275" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;BatchSearch&quot;][&quot;HwndSource_MainWindow&quot;][&quot;MainWindow&quot;][&quot;tbarInvoices&quot;][&quot;C1ToolbarGroup&quot;][&quot;txtBatchNr&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="32" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="20" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;BatchSearch&quot;][&quot;HwndSource_MainWindow&quot;][&quot;MainWindow&quot;][&quot;tbarInvoices&quot;][&quot;C1ToolbarGroup&quot;][&quot;C1ToolbarButton2&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{29FFF95E-2F7A-4F60-9DCD-35FFD1DD1716}">
+				<Data Description="Compares the %n Stores item with the contents of the control." Checkpoint="C1datagridInvoices2" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="30" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="40" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;BatchSearch&quot;][&quot;HwndSource_MainWindow&quot;][&quot;MainWindow&quot;][&quot;tbarInvoices&quot;][&quot;C1ToolbarGroup&quot;][&quot;C1ToolbarButton&quot;];" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{0D95CADB-81E1-4C49-82A3-9E460112C017}" />
+</Root>

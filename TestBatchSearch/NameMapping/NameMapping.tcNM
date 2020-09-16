@@ -98,7 +98,254 @@
 													</Child>
 												</Children>
 											</Child>
+											<Child Name="C1datagridInvoices" Key="{FC8E3A89-DCBB-4A40-A6B2-BBA0DA710718}" ExtendedFind="True">
+												<Image FileName="1254684109" Left="12" Top="248" Right="1739" Bottom="1039" />
+												<TypeInfo Item0="{C6C1C7C6-E21B-40BD-B1A2-87373BC42D7D}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="C1.WPF.DataGrid.C1DataGrid" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="C1Toolbar" Key="{6D95470C-40F9-4412-8949-89FD650A613B}" ExtendedFind="True">
+												<Image FileName="-1732418214" Left="12" Top="52" Right="1739" Bottom="119" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="C1.WPF.Toolbar.C1Toolbar" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="C1ToolbarGroup" Key="{3E7B3605-7C1A-4758-9B10-BAAFE2FD36C5}" ExtendedFind="True">
+														<Image FileName="-1732418214" Left="19" Top="59" Right="564" Bottom="112" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="C1.WPF.Toolbar.C1ToolbarGroup" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ItemsControl" Key="{A6313FC3-8ABA-4C65-B856-9EFECED09B49}" ExtendedFind="True">
+																<Image FileName="-1732418214" Left="27" Top="67" Right="553" Bottom="103" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.ItemsControl" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="C1toolbarbuttonInvoices" Key="{DFF7A836-C603-49A1-86F0-06CBED1C2F31}" ExtendedFind="True">
+																		<Image FileName="-1732418214" Left="202" Top="67" Right="378" Bottom="103" />
+																		<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="C1.WPF.Toolbar.C1ToolbarButton" />
+																			</Property>
+																			<Property Name="WPFControlText">
+																				<Value Value="Invoices" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="tbarInvoices" Key="{B7E627DB-8892-440E-8688-2BC0BC89721B}" ExtendedFind="True">
+												<Image FileName="600504474" Left="12" Top="118" Right="1739" Bottom="205" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="tbarInvoices" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="C1ToolbarGroup" Key="{B5B3D1A4-F02A-476E-9F18-591501C36E3E}" ExtendedFind="True">
+														<Image FileName="600504474" Left="19" Top="125" Right="912" Bottom="198" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="C1.WPF.Toolbar.C1ToolbarGroup" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="txtBatchNr" Key="{3560F684-0C7F-44E0-ACAA-6559923E55FB}" ExtendedFind="True">
+																<Image FileName="600504474" Left="243" Top="139" Right="419" Bottom="184" />
+																<TypeInfo Item0="{625FDA91-1249-48B2-9E96-604BB24EE939}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value Value="txtBatchNr" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="C1ToolbarButton" Key="{1ABC6638-0745-41DD-BCA3-96D5A0D93C19}" ExtendedFind="True">
+																<Image FileName="-13437480" Left="834" Top="134" Right="902" Bottom="189" />
+																<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="C1.WPF.Toolbar.C1ToolbarButton" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="cboSearchType" Key="{D0E48B73-CB79-4A2B-BE86-66C9BCF22758}" ExtendedFind="True">
+																<Image FileName="-1868367360" Left="566" Top="139" Right="830" Bottom="184" />
+																<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value Value="cboSearchType" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="C1ToolbarButton2" Key="{A7468C43-9C9B-4A14-A10F-8D935822CA71}" ExtendedFind="True">
+																<Image FileName="167601069" Left="27" Top="134" Right="95" Bottom="189" />
+																<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="C1.WPF.Toolbar.C1ToolbarButton" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="C1datagridInvoices2" Key="{2FD6FBD7-3D6F-49A5-AFA8-3A12561D3923}" ExtendedFind="True">
+												<Image FileName="946860294" Left="12" Top="248" Right="1739" Bottom="1039" />
+												<TypeInfo Item0="{C6C1C7C6-E21B-40BD-B1A2-87373BC42D7D}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="C1.WPF.DataGrid.C1DataGrid" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="DataGridRowPresenter" Key="{3411EE90-3059-42DB-AF18-906BE53153FF}" ExtendedFind="True">
+														<Image FileName="946860294" Left="55" Top="291" Right="1736" Bottom="336" />
+														<TypeInfo Item0="{C6C1C7C6-E21B-40BD-B1A2-87373BC42D7D}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="C1.WPF.DataGrid.DataGridRowPresenter" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="DatagridcellpresenterAllan" Key="{D38DAFAF-0DE7-4E58-84AB-16D437ACA238}" ExtendedFind="True">
+																<Image FileName="946860294" Left="335" Top="291" Right="616" Bottom="336" />
+																<TypeInfo Item0="{C6C1C7C6-E21B-40BD-B1A2-87373BC42D7D}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="C1.WPF.DataGrid.DataGridCellPresenter" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="ALLAN" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="Datagridcellpresenter16850" Key="{9E332BF2-5EFB-4D88-BE07-C4C4FC2CE284}" ExtendedFind="True">
+														<Image FileName="-512110769" Left="55" Top="335" Right="336" Bottom="380" />
+														<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="C1.WPF.DataGrid.DataGridCellPresenter" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="16850" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
 										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_PopupRoot" Key="{5C94B6B1-6CBA-47C7-9B15-DCEB66AE8D41}">
+								<Image FileName="-1649351877" Left="0" Top="0" Right="263" Bottom="241" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="PopupRoot" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupRoot" Key="{6E102EF9-C135-43D7-BF4D-54B633224417}">
+										<Image FileName="-1649351877" Left="0" Top="0" Right="263" Bottom="242" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Controls.Primitives.PopupRoot" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="C1comboboxitemOpeninvoiceS" Key="{084D8192-2794-4BDF-BAAE-3627D2322649}" ExtendedFind="True">
+												<Image FileName="-1649351877" Left="5" Top="197" Right="258" Bottom="236" />
+												<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="C1.WPF.C1ComboBoxItem" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="OpenInvoice(s)" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlg" Key="{AC620539-0F9B-4E41-B378-59640F3C2BAA}">
+								<Image FileName="-1098204543" Left="0" Top="0" Right="395" Bottom="281" />
+								<TypeInfo Item0="{B3B3CCFE-93F9-478B-A764-2240BB1DF7AC}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Static" Key="{9347BEC4-39CC-4F37-B49A-5D0B7256BF68}">
+										<Image FileName="-1098204543" Left="31" Top="101" Right="328" Bottom="133" />
+										<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Static" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Check if invoice has been scanned" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnOK" Key="{506FA4EB-C3DF-4833-B191-F141573C66B9}">
+										<Image FileName="1457889517" Left="213" Top="196" Right="351" Bottom="245" />
+										<TypeInfo Item0="{D6D240AC-3041-4A48-885F-600614B163CC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
 									</Child>
 								</Children>
 							</Child>
@@ -165,7 +412,34 @@
 							<Child Name="C1ToolbarButton" Owner="{349089FD-55C2-46AB-85C5-C61608CCB59D}" />
 						</Child>
 					</Child>
+					<Child Name="C1datagridInvoices" Owner="{FC8E3A89-DCBB-4A40-A6B2-BBA0DA710718}" />
+					<Child Name="C1Toolbar" Owner="{6D95470C-40F9-4412-8949-89FD650A613B}">
+						<Child Name="C1ToolbarGroup" Owner="{3E7B3605-7C1A-4758-9B10-BAAFE2FD36C5}">
+							<Child Name="ItemsControl" Owner="{A6313FC3-8ABA-4C65-B856-9EFECED09B49}">
+								<Child Name="C1toolbarbuttonInvoices" Owner="{DFF7A836-C603-49A1-86F0-06CBED1C2F31}" />
+							</Child>
+						</Child>
+					</Child>
+					<Child Name="tbarInvoices" Owner="{B7E627DB-8892-440E-8688-2BC0BC89721B}">
+						<Child Name="C1ToolbarGroup" Owner="{B5B3D1A4-F02A-476E-9F18-591501C36E3E}">
+							<Child Name="txtBatchNr" Owner="{3560F684-0C7F-44E0-ACAA-6559923E55FB}" />
+							<Child Name="C1ToolbarButton" Owner="{1ABC6638-0745-41DD-BCA3-96D5A0D93C19}" />
+							<Child Name="cboSearchType" Owner="{D0E48B73-CB79-4A2B-BE86-66C9BCF22758}" />
+							<Child Name="C1ToolbarButton2" Owner="{A7468C43-9C9B-4A14-A10F-8D935822CA71}" />
+						</Child>
+					</Child>
+					<Child Name="DatagridcellpresenterAllan" Owner="{D38DAFAF-0DE7-4E58-84AB-16D437ACA238}" />
+					<Child Name="Datagridcellpresenter16850" Owner="{9E332BF2-5EFB-4D88-BE07-C4C4FC2CE284}" />
 				</Child>
+			</Child>
+			<Child Name="HwndSource_PopupRoot" Owner="{5C94B6B1-6CBA-47C7-9B15-DCEB66AE8D41}">
+				<Child Name="PopupRoot" Owner="{6E102EF9-C135-43D7-BF4D-54B633224417}">
+					<Child Name="C1comboboxitemOpeninvoiceS" Owner="{084D8192-2794-4BDF-BAAE-3627D2322649}" />
+				</Child>
+			</Child>
+			<Child Name="dlg" Owner="{AC620539-0F9B-4E41-B378-59640F3C2BAA}">
+				<Child Name="Static" Owner="{9347BEC4-39CC-4F37-B49A-5D0B7256BF68}" />
+				<Child Name="btnOK" Owner="{506FA4EB-C3DF-4833-B191-F141573C66B9}" />
 			</Child>
 		</Child>
 		<Child Name="devenv" Owner="{31CB07F5-2E0C-47B8-AF4B-6A6ED1A7A746}">

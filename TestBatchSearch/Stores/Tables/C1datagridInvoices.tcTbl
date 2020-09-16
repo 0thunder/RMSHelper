@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="14.0">
+	<Table>
+		<Source Object="Aliases[&quot;BatchSearch&quot;][&quot;HwndSource_MainWindow&quot;][&quot;MainWindow&quot;][&quot;C1datagridInvoices&quot;]">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="Automatic" SelectionPreference="NearestToCenter" HasHeader="True" />
+		</Source>
+		<Columns>
+			<Column>Batch Number</Column>
+			<Column>Transaction Number</Column>
+			<Column>Account Number</Column>
+			<Column>Time</Column>
+			<Column>Quote#</Column>
+			<Column>Total Store</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">4557</Cell>
+				<Cell Type="String">158008</Cell>
+				<Cell Type="String">KVK</Cell>
+				<Cell Type="String">6/26/2014 8:34 AM</Cell>
+				<Cell Type="String">0</Cell>
+				<Cell Type="String">512.58 Dakota</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">4150</Cell>
+				<Cell Type="String">158008</Cell>
+				<Cell Type="String">CARIBBEAN</Cell>
+				<Cell Type="String">5/28/2019 4:00 PM</Cell>
+				<Cell Type="String">157962</Cell>
+				<Cell Type="String">-646.69 Shaba</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>
