@@ -5,6 +5,7 @@
 		<child name="Transaction" key="{B05F1D1E-6492-482A-94C1-716A3D4BB5AF}" path="Transaction.tcKDTest" />
 		<child name="OpenInvoiceString" key="{66792EFA-0701-4116-8B46-FA58D526C92C}" path="OpenInvoiceString.tcKDTest" />
 		<child name="OpenInvoiceInt" key="{ACE46C1A-024E-46A5-8448-0CB6076A2FE8}" path="OpenInvoiceInt.tcKDTest" />
-		<child name="SelectedRow" key="{296B1ABC-55A6-49DD-9AE1-887DAA6BCA3D}" path="SelectedRow.tcKDTest" />
+		<child name="SelectedRowNoImage" key="{296B1ABC-55A6-49DD-9AE1-887DAA6BCA3D}" path="SelectedRowNoImage.tcKDTest" />
+		<child name="SelectedTrNrPdfView" key="{A99B32FC-5B97-4913-8CFB-89556CB1B1B8}" path="SelectedTrNrPdfView.tcKDTest" />
 	</children>
 </Root>

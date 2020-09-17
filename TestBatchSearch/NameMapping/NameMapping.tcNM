@@ -149,6 +149,18 @@
 																			</Property>
 																		</Properties>
 																	</Child>
+																	<Child Name="C1toolbarbuttonReturns" Key="{0233B6E8-0CE8-4605-8303-4E70C7A8A62F}" ExtendedFind="True">
+																		<Image FileName="-709655705" Left="27" Top="67" Right="203" Bottom="103" />
+																		<TypeInfo Item0="{C6C1C7C6-E21B-40BD-B1A2-87373BC42D7D}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="C1.WPF.Toolbar.C1ToolbarButton" />
+																			</Property>
+																			<Property Name="WPFControlText">
+																				<Value Value="Returns" />
+																			</Property>
+																		</Properties>
+																	</Child>
 																</Children>
 															</Child>
 														</Children>
@@ -255,14 +267,26 @@
 																		<Value Value="C1.WPF.DataGrid.DataGridCellPresenter" />
 																	</Property>
 																	<Property Name="WPFControlText">
-																		<Value Value="ALLAN" />
+																		<Value Value="21220" />
 																	</Property>
 																</Properties>
 															</Child>
 														</Children>
 													</Child>
-													<Child Name="Datagridcellpresenter16850" Key="{9E332BF2-5EFB-4D88-BE07-C4C4FC2CE284}" ExtendedFind="True">
-														<Image FileName="-512110769" Left="55" Top="335" Right="336" Bottom="380" />
+													<Child Name="Datagridcellpresenter" Key="{9E332BF2-5EFB-4D88-BE07-C4C4FC2CE284}" ExtendedFind="True">
+														<Image FileName="864710297" Left="55" Top="641" Right="331" Bottom="686" />
+														<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="C1.WPF.DataGrid.DataGridCellPresenter" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="21267" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Datagridcellpresenter16850" Key="{213F5940-4255-4A08-9B53-1BE1C1DACC96}" ExtendedFind="True">
+														<Image FileName="1877180932" Left="55" Top="335" Right="286" Bottom="380" />
 														<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
 														<Properties>
 															<Property Name="ClrFullClassName">
@@ -310,6 +334,21 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="C1ToolbarButton" Key="{E6F5F1A6-756A-4723-A214-14A044B66998}" ExtendedFind="True">
+												<Image FileName="-372958310" Left="77" Top="10" Right="145" Bottom="62" />
+												<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="C1.WPF.Toolbar.C1ToolbarButton" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 								</Children>
@@ -346,6 +385,188 @@
 												<Value Value="OK" />
 											</Property>
 										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_BrowserView" Key="{7EEC255E-E68E-49D6-965D-FAE52AC76A17}">
+								<Image FileName="-357834721" Left="0" Top="0" Right="1050" Bottom="1400" />
+								<TypeInfo Item0="{700DF085-F034-4894-90BF-48C857F61DA8}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="BrowserView" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="BrowserView" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ShellEmbedding" Key="{270CCD69-22A2-4922-8353-76E9DBED5F75}">
+										<Image FileName="-357834721" Left="12" Top="52" Right="1038" Bottom="1388" />
+										<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Shell Embedding" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ShellDocObjectView" Key="{F73DC41B-AFC6-48D3-85A3-0906F8ADC347}">
+												<Image FileName="-357834721" Left="12" Top="52" Right="1038" Bottom="1388" />
+												<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Shell DocObject View" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="A38060" Key="{99271463-2FAD-40B8-ADAA-FC77A2C36D05}">
+														<Image FileName="-357834721" Left="12" Top="52" Right="1038" Bottom="1388" />
+														<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="ATL:79A38060" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Static" Key="{56C5E9E7-0B88-44AF-869A-F2EA7D536958}">
+																<Image FileName="-357834721" Left="12" Top="52" Right="1038" Bottom="1388" />
+																<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="Static" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="AVFlipContainerView" Key="{8CC640D4-4238-43FE-95D9-BFC256CA3275}">
+																		<Image FileName="-357834721" Left="12" Top="53" Right="1038" Bottom="1388" />
+																		<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="AVL_AVView" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="AVFlipContainerView" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="AVDocumentMainView" Key="{561F5B41-EC94-487B-A4E7-3CE14CBAE659}">
+																				<Image FileName="-357834721" Left="12" Top="53" Right="1038" Bottom="1388" />
+																				<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="AVL_AVView" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="AVDocumentMainView" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="AVFlipContainerView" Key="{E0AE518A-28DF-410C-8957-52492C5AF3B2}">
+																						<Image FileName="-357834721" Left="12" Top="53" Right="1038" Bottom="1388" />
+																						<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value Value="AVL_AVView" />
+																							</Property>
+																							<Property Name="WndCaption">
+																								<Value Value="AVFlipContainerView" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="AVSplitterView" Key="{F5FBA5E2-2EA4-4983-AC0C-83453B60FA96}">
+																								<Image FileName="-357834721" Left="12" Top="53" Right="1038" Bottom="1388" />
+																								<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="AVL_AVView" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="AVSplitterView" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="AVSplitationPageView" Key="{9FAEE1DD-7FF4-412B-B521-7241DF67E6A0}">
+																										<Image FileName="-357834721" Left="12" Top="53" Right="1038" Bottom="1388" />
+																										<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+																										<Properties>
+																											<Property Name="WndClass">
+																												<Value Value="AVL_AVView" />
+																											</Property>
+																											<Property Name="WndCaption">
+																												<Value Value="AVSplitationPageView" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="AVSplitterView" Key="{EB23266E-C9E6-4DCB-BBCB-3DB7B1A351AA}">
+																												<Image FileName="-357834721" Left="12" Top="53" Right="1038" Bottom="1388" />
+																												<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+																												<Properties>
+																													<Property Name="WndClass">
+																														<Value Value="AVL_AVView" />
+																													</Property>
+																													<Property Name="WndCaption">
+																														<Value Value="AVSplitterView" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="AVScrolledPageView" Key="{FDB492CA-9035-4D7A-A61B-B323A33EEDD6}">
+																														<Image FileName="-357834721" Left="12" Top="53" Right="1038" Bottom="1388" />
+																														<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+																														<Properties>
+																															<Property Name="WndClass">
+																																<Value Value="AVL_AVView" />
+																															</Property>
+																															<Property Name="WndCaption">
+																																<Value Value="AVScrolledPageView" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="AVScrollView" Key="{12EBA9E6-D5E2-4163-ADD0-9B31498411A9}">
+																																<Image FileName="-357834721" Left="12" Top="53" Right="1038" Bottom="1388" />
+																																<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+																																<Properties>
+																																	<Property Name="WndClass">
+																																		<Value Value="AVL_AVView" />
+																																	</Property>
+																																	<Property Name="WndCaption">
+																																		<Value Value="AVScrollView" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="AVPageView" Key="{5B8BE18A-CF1E-458B-85B3-E15D960D45DB}">
+																																		<Image FileName="-357834721" Left="12" Top="53" Right="1008" Bottom="1388" />
+																																		<TypeInfo Item0="{AF05EFDB-9B8A-4B11-93B3-AD183FA4051A}" />
+																																		<Properties>
+																																			<Property Name="WndClass">
+																																				<Value Value="AVL_AVView" />
+																																			</Property>
+																																			<Property Name="WndCaption">
+																																				<Value Value="AVPageView" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
 									</Child>
 								</Children>
 							</Child>
@@ -417,6 +638,7 @@
 						<Child Name="C1ToolbarGroup" Owner="{3E7B3605-7C1A-4758-9B10-BAAFE2FD36C5}">
 							<Child Name="ItemsControl" Owner="{A6313FC3-8ABA-4C65-B856-9EFECED09B49}">
 								<Child Name="C1toolbarbuttonInvoices" Owner="{DFF7A836-C603-49A1-86F0-06CBED1C2F31}" />
+								<Child Name="C1toolbarbuttonReturns" Owner="{0233B6E8-0CE8-4605-8303-4E70C7A8A62F}" />
 							</Child>
 						</Child>
 					</Child>
@@ -429,17 +651,46 @@
 						</Child>
 					</Child>
 					<Child Name="DatagridcellpresenterAllan" Owner="{D38DAFAF-0DE7-4E58-84AB-16D437ACA238}" />
-					<Child Name="Datagridcellpresenter16850" Owner="{9E332BF2-5EFB-4D88-BE07-C4C4FC2CE284}" />
+					<Child Name="Datagridcellpresenter" Owner="{9E332BF2-5EFB-4D88-BE07-C4C4FC2CE284}" />
+					<Child Name="Datagridcellpresenter16850" Owner="{213F5940-4255-4A08-9B53-1BE1C1DACC96}" />
 				</Child>
 			</Child>
 			<Child Name="HwndSource_PopupRoot" Owner="{5C94B6B1-6CBA-47C7-9B15-DCEB66AE8D41}">
 				<Child Name="PopupRoot" Owner="{6E102EF9-C135-43D7-BF4D-54B633224417}">
 					<Child Name="C1comboboxitemOpeninvoiceS" Owner="{084D8192-2794-4BDF-BAAE-3627D2322649}" />
+					<Child Name="C1ToolbarButton" Owner="{E6F5F1A6-756A-4723-A214-14A044B66998}" />
 				</Child>
 			</Child>
 			<Child Name="dlg" Owner="{AC620539-0F9B-4E41-B378-59640F3C2BAA}">
 				<Child Name="Static" Owner="{9347BEC4-39CC-4F37-B49A-5D0B7256BF68}" />
 				<Child Name="btnOK" Owner="{506FA4EB-C3DF-4833-B191-F141573C66B9}" />
+			</Child>
+			<Child Name="HwndSource_BrowserView" Owner="{7EEC255E-E68E-49D6-965D-FAE52AC76A17}">
+				<Child Name="ShellEmbedding" Owner="{270CCD69-22A2-4922-8353-76E9DBED5F75}">
+					<Child Name="ShellDocObjectView" Owner="{F73DC41B-AFC6-48D3-85A3-0906F8ADC347}">
+						<Child Name="A38060" Owner="{99271463-2FAD-40B8-ADAA-FC77A2C36D05}">
+							<Child Name="Static" Owner="{56C5E9E7-0B88-44AF-869A-F2EA7D536958}">
+								<Child Name="AVFlipContainerView" Owner="{8CC640D4-4238-43FE-95D9-BFC256CA3275}">
+									<Child Name="AVDocumentMainView" Owner="{561F5B41-EC94-487B-A4E7-3CE14CBAE659}">
+										<Child Name="AVFlipContainerView" Owner="{E0AE518A-28DF-410C-8957-52492C5AF3B2}">
+											<Child Name="AVSplitterView" Owner="{F5FBA5E2-2EA4-4983-AC0C-83453B60FA96}">
+												<Child Name="AVSplitationPageView" Owner="{9FAEE1DD-7FF4-412B-B521-7241DF67E6A0}">
+													<Child Name="AVSplitterView" Owner="{EB23266E-C9E6-4DCB-BBCB-3DB7B1A351AA}">
+														<Child Name="AVScrolledPageView" Owner="{FDB492CA-9035-4D7A-A61B-B323A33EEDD6}">
+															<Child Name="AVScrollView" Owner="{12EBA9E6-D5E2-4163-ADD0-9B31498411A9}">
+																<Child Name="AVPageView" Owner="{5B8BE18A-CF1E-458B-85B3-E15D960D45DB}" />
+															</Child>
+														</Child>
+													</Child>
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="devenv" Owner="{31CB07F5-2E0C-47B8-AF4B-6A6ED1A7A746}">
