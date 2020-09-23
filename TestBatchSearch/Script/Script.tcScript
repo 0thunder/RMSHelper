@@ -2,5 +2,6 @@
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
 		<child name="Unit1" key="{CFA180CE-7AFD-440F-9AFD-C1B34B5A360D}" path="Unit1.scs" />
+		<child name="ChangeDb" key="{FD599416-D8F0-4D54-BA8E-77DB46A2AF52}" path="ChangeDb.scs" />
 	</children>
 </Root>

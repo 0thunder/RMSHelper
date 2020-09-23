@@ -7,5 +7,7 @@
 		<child name="OpenInvoiceInt" key="{ACE46C1A-024E-46A5-8448-0CB6076A2FE8}" path="OpenInvoiceInt.tcKDTest" />
 		<child name="SelectedRowNoImage" key="{296B1ABC-55A6-49DD-9AE1-887DAA6BCA3D}" path="SelectedRowNoImage.tcKDTest" />
 		<child name="SelectedTrNrPdfView" key="{A99B32FC-5B97-4913-8CFB-89556CB1B1B8}" path="SelectedTrNrPdfView.tcKDTest" />
+		<child name="SettingDbOptions" key="{1B1D3D9D-2C90-4F81-BD31-290B43FD5851}" path="SettingDbOptions.tcKDTest" />
+		<child name="Test2" key="{B4B7CDB0-78AA-4E58-8406-CC8D9FF16219}" path="Test2.tcKDTest" />
 	</children>
 </Root>

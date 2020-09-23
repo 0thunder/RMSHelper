@@ -3,25 +3,73 @@
 	<Table>
 		<Source Object="NameMapping[&quot;Sys&quot;][&quot;BatchSearch&quot;][&quot;HwndSource_MainWindow&quot;][&quot;MainWindow&quot;][&quot;C1datagridInvoices2&quot;]">
 			<DataExtraction Type="OpticalTableRecognition" DetectionMode="ByCoordinates" SelectionPreference="NearestToCenter" HasHeader="True">
-				<Rectangle Left="33" Top="42" Right="1697" Bottom="140" />
+				<Rectangle Left="43" Top="10" Right="1691" Bottom="355" />
 			</DataExtraction>
 		</Source>
 		<Columns>
-			<Column>49250</Column>
-			<Column>275955</Column>
-			<Column>8/28/2018 10:30:51 AM</Column>
-			<Column>8/28/2019 12:00:00 AM</Column>
-			<Column>Dakota</Column>
-			<Column>MY COMPUTER</Column>
+			<Column>Acc Rec Id</Column>
+			<Column>Reference Number</Column>
+			<Column>Account Number Date</Column>
+			<Column>Due Date</Column>
+			<Column>Scan</Column>
+			<Column>Store</Column>
 		</Columns>
-		<Rows>
+		<Rows SpecifedRowsCount="7">
 			<Row>
-				<Cell Type="String">49244</Cell>
-				<Cell Type="String">275925</Cell>
-				<Cell Type="String">8/28/2018 8:31:34 AM</Cell>
-				<Cell Type="String">8/28/2019 12:00:00 AM</Cell>
-				<Cell Type="String">Dakota</Cell>
-				<Cell Type="String">MY COMPUTER</Cell>
+				<Cell Type="String">25819</Cell>
+				<Cell Type="String">181727</Cell>
+				<Cell Type="String">KLOES 9/22/2020 11:35:29 AM</Cell>
+				<Cell Type="String">10/22/2020 12:00:00 AM</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">Shaba</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">25818</Cell>
+				<Cell Type="String">181721</Cell>
+				<Cell Type="String">NEW_INDIA ASSURANCE 9/22/2020 10:47:35 AM</Cell>
+				<Cell Type="String">10/22/2020 12:00:00 AM</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">Shaba</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">25817</Cell>
+				<Cell Type="String">181710</Cell>
+				<Cell Type="String">BRICKEL BAY 9/22/2020 9:05:32 AM</Cell>
+				<Cell Type="String">10/22/2020 12:00:00 AM</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">Shaba</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">25816</Cell>
+				<Cell Type="String">181709</Cell>
+				<Cell Type="String">DEURWAARDER ROOS 9/22/2020 9:00:02 AM</Cell>
+				<Cell Type="String">10/22/2020 12:00:00 AM</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">Shaba</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">25815</Cell>
+				<Cell Type="String">181680</Cell>
+				<Cell Type="String">DEFECTIVE 9/21/2020 2:00:49 PM</Cell>
+				<Cell Type="String">9/21/2021 12:00:00 AM</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">Shaba</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">25814</Cell>
+				<Cell Type="String">181672</Cell>
+				<Cell Type="String">DE SCHAKEL 9/21/2020 12:42:34 PM</Cell>
+				<Cell Type="String">10/21/2020 12:00:00 AM</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">Shaba</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">25813</Cell>
+				<Cell Type="String">181663</Cell>
+				<Cell Type="String">ENNIA 9/21/2020 10:50:52 AM</Cell>
+				<Cell Type="String">10/21/2020 12:00:00 AM</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">Shaba</Cell>
 			</Row>
 		</Rows>
 	</Table>

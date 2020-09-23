@@ -297,6 +297,18 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="Datagridcellpresenter25818" Key="{870F7C60-3DFA-4D2A-B8EE-3C147F0C57A6}" ExtendedFind="True">
+														<Image FileName="938655775" Left="55" Top="335" Right="280" Bottom="380" />
+														<TypeInfo Item0="{FD05AA58-C5A0-4603-A530-7607291949E7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="C1.WPF.DataGrid.DataGridCellPresenter" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="25818" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -653,6 +665,7 @@
 					<Child Name="DatagridcellpresenterAllan" Owner="{D38DAFAF-0DE7-4E58-84AB-16D437ACA238}" />
 					<Child Name="Datagridcellpresenter" Owner="{9E332BF2-5EFB-4D88-BE07-C4C4FC2CE284}" />
 					<Child Name="Datagridcellpresenter16850" Owner="{213F5940-4255-4A08-9B53-1BE1C1DACC96}" />
+					<Child Name="Datagridcellpresenter25818" Owner="{870F7C60-3DFA-4D2A-B8EE-3C147F0C57A6}" />
 				</Child>
 			</Child>
 			<Child Name="HwndSource_PopupRoot" Owner="{5C94B6B1-6CBA-47C7-9B15-DCEB66AE8D41}">
